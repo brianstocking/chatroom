@@ -10,7 +10,6 @@ app.controller('mainCtrl', function ($scope, parseService) {
     parseService.getData().then(function (message) {
       $scope.messages = message.data.results;
 
-
     });
   }
   $scope.getParseData();

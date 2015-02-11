@@ -8,6 +8,7 @@ body {
   width: 100%;
   font-family: sans-serif;
   background-image: url('http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg');
+  background-size: 100% 100%;
 }
 
 .main-container {
@@ -27,8 +28,13 @@ body {
   width: 40%;
 }
 
-p{
+p {
   text-align: center;
   margin: 3px 0;
   font-size: 17px;
+}
+
+.dates {
+  font-size: 10px;
+  float: right;
 }
